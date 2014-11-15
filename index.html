@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="home">
+
+<div class="container"><div class="row"><div class="col"><h1 class="text-center">Hello, my name is Drew</h1><img src="/images/drew/guitar.jpg" class="main-image"><div class="about-me text-center"><h4 class="list-title">If I met you in an elevator, here is what I would say:</h4><ul class="list"><li>I'm a Web Developer and Music Teacher from St. Louis, MO.</li><li>Each day is a new day to create something fun and/or useful.</li><li>When I'm not creating stuff, I'm reading books, jamming with friends, or hanging out with my gorgeous wife.</li><li>Myers-Briggs: ESFP</li><li>...</li><li class="btw">(Just kidding, nobody talks like that in an elevator)</li></ul></div><h2>My Goals</h2><p>I know I've had a great day when I was able to contribute to a project, teach something new to an excited student, or learn something new myself. I grew up as a musician, so most of my web projects intend to help musicians in the creative process and promotion. I have the honor of working with many talented young guitar students, so anything I can do to push them forward is a success in my book. I'm also trying to teach my dog how to roll over.</p></div></div><div class="row"><div class="col c50"><h2>Web Development</h2><p>Front end technologies such as HTML, CSS, and JavaScript are my speciality. I enjoy engineering tight presentation layers and interactive UI for web applications in the name of good UX. My favorite language to write is JavaScript because of its wide range of use cases, but I also really love Ruby. Angular is my framework of choice for JavaScript applications. Other sweet tools I use every day: Jasmine for unit testing, Gulp for build-task management, Sass for preprocessing CSS. Though, I'm always trying new things :) </p></div><div class="col c50"><h2>Guitar Lessons</h2><p>Anybody that knows me could tell you that my #1 hobby is playing the guitar. (I talk about it all the time, it's probably really annoying.) I started casually teaching others to play in high school but it slowly grew to a busy side business. The coolest feeling in the world for me is empowering the musically inspired to become real musicians. Learning to write songs was pretty painful for me when growing up, so I try to make it easier for people.</p></div></div></div>
+
+
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

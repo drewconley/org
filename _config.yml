@@ -1,0 +1,9 @@
+# Site settings
+title: "Drew Conley: Web Developer & Music Teacher"
+description: "Drew Conley's personal website about music, web development, and life things."
+baseurl: ""
+url: "http://drewconley.org"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
