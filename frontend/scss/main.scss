@@ -1,3 +1,21 @@
+@import 'includes/normalize';
+
+* {
+    box-sizing:border-box;
+}
+
 body {
-    background:white;
+    font-size:18px;
+    font-family: "Crimson Text";
+    h1, h2, h3, p, li {
+        color:#333;
+        font-weight:400;
+    }
+}
+
+$pad: 20px;
+.wrap {
+    max-width:660px;
+    padding:$pad;
+    margin:0 auto;
 }
