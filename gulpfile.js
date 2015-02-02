@@ -9,7 +9,7 @@ gulp.task('s', function() {
         server: {
             baseDir: "./_site"
         },
-        files: ['css/**'], //NOTE: This watches the compiled version, not the _site public sheets
+        files: ['css/**', 'index.html', '_posts/**/*.md'],
         ghostMode: false
     });
 });
