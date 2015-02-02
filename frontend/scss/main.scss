@@ -14,8 +14,24 @@ body {
 }
 
 $pad: 20px;
+
+.page {
+    box-shadow:0px 1px 3px 0px rgba(6,16,48,0.20);
+    padding-bottom:$pad;
+    position:relative;
+    z-index:1;
+}
+
 .wrap {
     max-width:660px;
-    padding:$pad;
+    padding:0 $pad;
     margin:0 auto;
+}
+
+.site-footer {
+    background:#eee;
+    padding: $pad 0;
+    p {
+        margin:0;
+    }
 }
