@@ -321,17 +321,23 @@ td, th {
   box-sizing: border-box; }
 
 body {
-  font-size: 18px;
-  font-family: "Crimson Text"; }
+  font-size: 20px;
+  font-family: "Crimson Text";
+  background: #eee; }
   body h1, body h2, body h3, body p, body li {
     color: #333;
     font-weight: 400; }
+  body h2 {
+    margin-bottom: 0px; }
+    body h2 + p {
+      margin-top: 10px; }
 
 .page {
   box-shadow: 0px 1px 3px 0px rgba(6, 16, 48, 0.2);
   padding-bottom: 20px;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  background: #fff; }
 
 .wrap {
   max-width: 660px;
@@ -343,3 +349,22 @@ body {
   padding: 20px 0; }
   .site-footer p {
     margin: 0; }
+
+/* Typography Options */
+.center {
+  text-align: center; }
+
+.type-small {
+  font-size: 0.7em; }
+
+/* Homepage */
+.hp-image {
+  width: 220px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%; }
+
+/* Post pages */
+.post h1 {
+  position: relative;
+  left: -2px; }

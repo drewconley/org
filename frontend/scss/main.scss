@@ -4,22 +4,32 @@
     box-sizing:border-box;
 }
 
+$pad: 20px;
+
 body {
-    font-size:18px;
+    font-size:20px;
     font-family: "Crimson Text";
+    background:#eee;
     h1, h2, h3, p, li {
         color:#333;
         font-weight:400;
     }
+    h2 {
+        margin-bottom:0px;
+        + p {
+            margin-top:$pad/2;
+        }
+    }
 }
 
-$pad: 20px;
+
 
 .page {
     box-shadow:0px 1px 3px 0px rgba(6,16,48,0.20);
     padding-bottom:$pad;
     position:relative;
     z-index:1;
+    background:#fff;
 }
 
 .wrap {
@@ -33,5 +43,31 @@ $pad: 20px;
     padding: $pad 0;
     p {
         margin:0;
+    }
+}
+
+/* Typography Options */
+.center {
+    text-align:center;
+}
+.type-small {
+    font-size:0.7em;
+}
+
+
+/* Homepage */
+.hp-image {
+    width: 220px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+
+/* Post pages */
+.post {
+    h1 {
+
+        position:relative;
+        left:-2px; //The webfont doesn't line up perfectly on iOS
     }
 }
