@@ -7,3 +7,4 @@ url: "http://drewconley.org"
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ["frontend", "gulpfile.js", "node_modules"]
