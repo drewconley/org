@@ -30,7 +30,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('jekyll', function() {
-    run('jekyll build').exec();
+    run('jekyll build --drafts').exec();
 });
 
 
