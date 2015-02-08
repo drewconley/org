@@ -22,7 +22,19 @@ body {
     }
 }
 
-
+.site-header {
+    padding:$pad 0;
+    a {
+        text-decoration: none;
+        color:#333;
+    }
+    .main-title {
+        font-size:1.4em;
+    }
+    .sub-title {
+        text-transform: lowercase;
+    }
+}
 
 .page {
     box-shadow:0px 1px 3px 0px rgba(6,16,48,0.20);

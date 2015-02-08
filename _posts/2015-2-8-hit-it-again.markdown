@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hit It Again"
+date:   2015-2-8 16:00:00
 ---
 
 I have a million projects on my plate. The list continues to grow because I always want to start over. I suffer from this terrible epidemic called SOS: shiny object syndrome. New things get me excited about the future, but drift my focus away from the present.
